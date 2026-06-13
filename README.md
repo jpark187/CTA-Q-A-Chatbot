@@ -1,2 +1,4 @@
 # CTA-Q&A-Chatbot
-Developed a chatbot designed for question and answering about the Chicago Transit Authority (CTA) system. Scrapped the CTA website for text and developed a RAG (Retrieval Augmented Generation) pipeline to create a chatbot that can answer a user's inquiry about the CTA.
+Developed a chatbot designed for question and answering about the Chicago Transit Authority (CTA) system. Scrapped the CTA website for text and developed a RAG (Retrieval Augmented Generation) pipeline to create a chatbot that can answer a user's inquiry about the CTA. The chatbot can answer questions related to fare info, policies, station information and other related topics about the CTA. \
+
+All the code used to develop the chatbot is available in this repository. There are two parts, a web scrapping notebook and a RAG pipeline notebook. Due to the encryption and secruity on the CTA's website, I had to employ ScraperAPI to get around the security in order to successfully be able to web scrape the CTA website. The RAG pipeline notebook is where the chatbot was developed. 
