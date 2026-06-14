@@ -25,6 +25,7 @@ Limitations:
 - If we wanted to update/refresh the data the chatbot is based on, we would need to utilize paid ScraperAPI services.
 
 Next steps:
+- Development of a user interface. You can directly interact with the pipeline in the RAG pipeline notebook but development of a user interface would make utilizing the chatbot easier.
 - API integration, connect CTA tracker APIs for real-time routing and live alerts.
 - Implement LangChain conversation memory for contextual multi-turn chat.
 - Potential swap to a more powerful LLM for response generation to help faciliate upgrades like multi-turn chat/chat memroy capabilities or even multilingual function. 
