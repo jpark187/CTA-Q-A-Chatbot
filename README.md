@@ -16,6 +16,7 @@ Ran a series of benchmarking questions and used RAGAS to evaluate the results. R
 
  Notes:
  All pretrained models and methods were left as is. This was to prevent downstream knwoledge contamination or fine tuning degradation. Also fine-tuning the selected models and methods would've been too costly from a compute persepective. Also fine-tuning the models and methods would've defeated the point of developing a RAG pipeline in the first place. By fine-tuning the methods, the models/methods would've relied solely on its own knowledge rather than relying on the text data scrapped from the CTA website. To ensure that the chatbot didn't spew any inappropriate responses, a prompt was provided to the LLM to have some guidelines for how the LLM should generate a response. I also used 4-bitg NormalFloat (nf4) quantization via BitsandBytes to allow Mistral 7B instruct to be used on a Google colab notebook/interface. 
+ All code can be ran successfully on Google colab. I recommend using at least a T4 GPU. 
 
 Limitations:
 - This chatbot is not multilingual. The current CTA chatbot has mutlilingual capabilities with language support in English, Spanish, Chinese, Polish, and Filipino. If this chatbot were to be deployed on the real CTA website, having this capability would be essential to help serve non-English speaking customers. 
